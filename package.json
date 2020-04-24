@@ -1,0 +1,19 @@
+{
+  "name": "new-rpg",
+  "version": "1.0.0",
+  "description": "api that provides tools for rpg",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Rafael Iwao",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
