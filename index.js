@@ -11,8 +11,8 @@ app.use(cors());
 
 // requireDir('./src/models')
 
-// app.use("/api", require("./src/routes"));
-app.use(routes);
+app.use("/api", require("./src/routes"));
+// app.use(routes);
 
 app.listen(80);
 console.log('server listening on port 80');
