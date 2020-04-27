@@ -34,7 +34,7 @@ module.exports = {
             qtd,
             mod,
         }
-        if(dice == 2 || dice == 4 || dice == 8 || dice == 10|| dice == 12|| dice == 20|| dice == 100){
+        if(dice == 2 || dice == 4 || dice == 6|| dice == 8 || dice == 10|| dice == 12|| dice == 20|| dice == 100){
             
             rolls.success = true;
             rolls.values = rollDices(dice, qtd, mod),
