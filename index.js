@@ -14,6 +14,6 @@ app.use(cors());
 app.use("/api", require("./src/routes"));
 // app.use(routes);
 
-app.listen(3333);
-console.log('server listening on port 80');
+app.listen(process.env.PORT || 3333);
+console.log('server listening on port 3333');
 
