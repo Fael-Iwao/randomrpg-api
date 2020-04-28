@@ -38,7 +38,7 @@ module.exports = {
             
             rolls.success = true;
             rolls.values = rollDices(dice, qtd, mod),
-            rolls.message = "Dados rolados com sucesso"
+            rolls.message = "rolado(s) com sucesso"
              
         }else{
             rolls.sucess= false;
